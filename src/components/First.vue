@@ -7,7 +7,7 @@
     </div>
     <button v-on='{mouseenter:onEnter,mouseleave:onOut}' @keyup.enter="onClick">点我</button>
     <button v-on='{mouseenter:onEnter,mouseleave:onOut}' @click="onClick">点我1</button>
-    <input v-model="inputValue" placeholder="请输入">
+    <input v-model="inputValue" placeholder="请输入啊啊啊啊">
     <span>{{inputValue}}</span>
     <select v-model="selected">
       <option value="" disabled>请选择</option>
